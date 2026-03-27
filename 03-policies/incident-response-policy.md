@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Incident Response Policy
+# MedCaribe Health Group - Incident Response Policy
 
-**Document Classification:** Internal — All Staff  
+**Document Classification:** Internal - All Staff  
 **Policy ID:** POL-003  
 **Version:** 1.0  
 **Effective Date:** March 2026  
@@ -20,7 +20,7 @@ This policy defines the rules. The Incident Response Plan (a separate document) 
 
 ## 2. Scope
 
-This policy applies to all cybersecurity incidents affecting MedCaribe systems, data, networks, or personnel — regardless of whether the incident originates internally or externally, and regardless of the system or location affected.
+This policy applies to all cybersecurity incidents affecting MedCaribe systems, data, networks, or personnel - regardless of whether the incident originates internally or externally, and regardless of the system or location affected.
 
 All employees, contractors, and third parties with access to MedCaribe resources are required to comply with this policy.
 
@@ -69,7 +69,7 @@ The following external notifications may be required depending on the incident:
 
 **Corporate Clients:** Required if occupational health data from corporate contracts is affected.
 
-**Law Enforcement (Trinidad and Tobago Police Service — Cyber Crime Unit):** May be engaged for incidents involving criminal activity such as fraud, extortion, or deliberate data theft. The Medical Director authorizes law enforcement engagement.
+**Law Enforcement (Trinidad and Tobago Police Service - Cyber Crime Unit):** May be engaged for incidents involving criminal activity such as fraud, extortion, or deliberate data theft. The Medical Director authorizes law enforcement engagement.
 
 All external communications regarding incidents must be approved by the Medical Director. No staff member may communicate with media, regulators, or external parties about a security incident without explicit authorization.
 
@@ -79,13 +79,13 @@ All external communications regarding incidents must be approved by the Medical 
 
 MedCaribe follows the NIST SP 800-61 incident response lifecycle:
 
-**Phase 1 — Preparation:** Maintain the incident response plan, train staff on reporting procedures, ensure tools and contacts are available, and conduct periodic exercises.
+**Phase 1 - Preparation:** Maintain the incident response plan, train staff on reporting procedures, ensure tools and contacts are available, and conduct periodic exercises.
 
-**Phase 2 — Detection and Analysis:** Identify and validate security events, classify severity, determine scope and impact, and begin documentation.
+**Phase 2 - Detection and Analysis:** Identify and validate security events, classify severity, determine scope and impact, and begin documentation.
 
-**Phase 3 — Containment, Eradication, and Recovery:** Contain the incident to prevent further damage, remove the threat, restore affected systems, and verify restoration.
+**Phase 3 - Containment, Eradication, and Recovery:** Contain the incident to prevent further damage, remove the threat, restore affected systems, and verify restoration.
 
-**Phase 4 — Post-Incident Activity:** Conduct a post-incident review, document lessons learned, update the risk register, and improve procedures based on findings.
+**Phase 4 - Post-Incident Activity:** Conduct a post-incident review, document lessons learned, update the risk register, and improve procedures based on findings.
 
 Detailed procedures for each phase are documented in the Incident Response Plan.
 
