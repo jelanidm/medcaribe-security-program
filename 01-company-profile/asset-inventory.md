@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Technology Asset Inventory and Data Flow
+# MedCaribe Health Group - Technology Asset Inventory and Data Flow
 
-**Document Classification:** Internal — Security Program  
+**Document Classification:** Internal - Security Program  
 **Version:** 1.0  
 **Date:** March 2026  
 **Author:** Jelani D. Maitland  
@@ -12,7 +12,7 @@
 
 This document provides a structured inventory of all technology assets, software platforms, and data flows within MedCaribe Health Group. It serves as the foundation for risk assessment, access control decisions, and incident response planning.
 
-Maintaining an accurate asset inventory is a foundational control under both NIST CSF 2.0 (ID.AM — Asset Management) and CIS Controls v8 (Control 1 — Inventory and Control of Enterprise Assets, Control 2 — Inventory and Control of Software Assets).
+Maintaining an accurate asset inventory is a foundational control under both NIST CSF 2.0 (ID.AM - Asset Management) and CIS Controls v8 (Control 1 - Inventory and Control of Enterprise Assets, Control 2 - Inventory and Control of Software Assets).
 
 ---
 
@@ -24,7 +24,7 @@ Maintaining an accurate asset inventory is a foundational control under both NIS
 |------------|----------|-------------|-----|-------------------|
 | Desktop workstations | 22 | All locations | Windows 11 Pro | Domain-joined via Entra ID; no centralized patch management |
 | Laptop computers | 8 | Mobile staff, management | Windows 11 Pro | Entra ID joined; used on and off-site |
-| Reception tablets | 4 | Front desks — all locations | Android 13 | Patient check-in kiosks; consumer-grade, no MDM |
+| Reception tablets | 4 | Front desks - all locations | Android 13 | Patient check-in kiosks; consumer-grade, no MDM |
 | Label/receipt printers | 6 | Admin and lab areas | Embedded firmware | Network-connected; unmanaged |
 | Multifunction printers | 4 | One per location | Embedded firmware | Network-connected; default credentials likely unchanged |
 
@@ -41,7 +41,7 @@ Maintaining an accurate asset inventory is a foundational control under both NIS
 
 | Asset Type | Quantity | Location | Purpose |
 |------------|----------|----------|---------|
-| On-premise server | 0 | N/A | No on-premise servers — cloud-first approach |
+| On-premise server | 0 | N/A | No on-premise servers - cloud-first approach |
 | UPS battery backup | 2 | San Fernando, Chaguanas | Protects network equipment and workstations in main offices |
 
 ---
@@ -61,11 +61,11 @@ Maintaining an accurate asset inventory is a foundational control under both NIS
 
 | Software | Type | Purpose | Data Sensitivity |
 |----------|------|---------|------------------|
-| Microsoft Defender (built-in) | Endpoint security | Basic antivirus and threat protection | N/A — security tool |
-| WhatsApp (personal devices) | Messaging | Informal staff communication, sometimes patient coordination | High risk — unmanaged, patient data may transit |
-| Zoom | SaaS | Telemedicine consultations (ad hoc) | High — clinical discussions, not BAA-covered |
-| Google Drive (personal) | SaaS | Ad hoc file sharing by individual staff | High risk — unmanaged, potential data leakage |
-| USB drives | Removable media | File transfer between locations | High risk — unencrypted, no policy enforcement |
+| Microsoft Defender (built-in) | Endpoint security | Basic antivirus and threat protection | N/A - security tool |
+| WhatsApp (personal devices) | Messaging | Informal staff communication, sometimes patient coordination | High risk - unmanaged, patient data may transit |
+| Zoom | SaaS | Telemedicine consultations (ad hoc) | High - clinical discussions, not BAA-covered |
+| Google Drive (personal) | SaaS | Ad hoc file sharing by individual staff | High risk - unmanaged, potential data leakage |
+| USB drives | Removable media | File transfer between locations | High risk - unencrypted, no policy enforcement |
 
 ### 3.3 Software Inventory Summary (CIS Control 2)
 
@@ -89,7 +89,7 @@ Maintaining an accurate asset inventory is a foundational control under both NIS
 | Identity provider | Microsoft Entra ID (via M365 Business Premium) | All staff have M365 accounts |
 | Multi-factor authentication (MFA) | Partially enabled | MFA enabled for management accounts; not enforced for all users |
 | Password policy | Default M365 settings | No custom complexity or expiration policy configured |
-| Privileged accounts | 3 global admin accounts | IT admin (1), Medical Director (1), Operations Manager (1) — excessive admin rights |
+| Privileged accounts | 3 global admin accounts | IT admin (1), Medical Director (1), Operations Manager (1) - excessive admin rights |
 | Shared accounts | At least 2 known | "reception@medcaribe.tt" and "lab@medcaribe.tt" used by multiple staff |
 | Offboarding process | Informal | No documented process; accounts sometimes remain active after departure |
 | Role-based access control | Not implemented | Most users have similar access levels regardless of role |
@@ -149,18 +149,18 @@ Follow-up / Ongoing Care ──► CloudMed EHR (updated records, appointment sc
 | Email (external) | M365 Outlook | External recipients | TLS (opportunistic) | Yes (when recipient supports TLS) |
 | EHR access | Staff workstations | CloudMed vendor cloud | HTTPS | Yes |
 | Insurance claim submission | Billing workstations | Insurer portals | HTTPS | Yes |
-| Lab results (reference lab) | External lab portal | Staff email / EHR | HTTPS / Email | Partially — portal is HTTPS; email may not be encrypted |
+| Lab results (reference lab) | External lab portal | Staff email / EHR | HTTPS / Email | Partially - portal is HTTPS; email may not be encrypted |
 | Internal file sharing | Staff devices | OneDrive / SharePoint | HTTPS | Yes |
 | WhatsApp messages | Personal mobile devices | WhatsApp servers | End-to-end encrypted | Yes, but unmanaged and non-compliant |
-| Wi-Fi traffic | All devices | Router / internet | WPA2 (no enterprise auth) | Basic — susceptible to key compromise |
+| Wi-Fi traffic | All devices | Router / internet | WPA2 (no enterprise auth) | Basic - susceptible to key compromise |
 
 ### 5.4 Cross-Border Data Transfers
 
 | Data Type | Destination | Purpose | DPA Compliance Status |
 |-----------|-------------|---------|----------------------|
-| Patient health records | United States (CloudMed EHR vendor data centre) | Clinical record storage and processing | **Unverified** — no documented assessment of vendor safeguards per DPA Section 6(l) |
-| Business email | United States / Ireland (Microsoft data centres) | Email and file storage | **Partially compliant** — Microsoft DPA available but not reviewed or signed |
-| Financial data | United States (Intuit / QuickBooks) | Accounting and payroll | **Unverified** — no documented assessment |
+| Patient health records | United States (CloudMed EHR vendor data centre) | Clinical record storage and processing | **Unverified** - no documented assessment of vendor safeguards per DPA Section 6(l) |
+| Business email | United States / Ireland (Microsoft data centres) | Email and file storage | **Partially compliant** - Microsoft DPA available but not reviewed or signed |
+| Financial data | United States (Intuit / QuickBooks) | Accounting and payroll | **Unverified** - no documented assessment |
 
 ---
 
@@ -173,14 +173,14 @@ Follow-up / Ongoing Care ──► CloudMed EHR (updated records, appointment sc
 | Microsoft 365 (email, files) | Native M365 retention (not true backup) | Continuous (retention policies) | Never tested |
 | CloudMed EHR | Vendor-managed backups (assumed) | Unknown | Never verified with vendor |
 | QuickBooks Online | Intuit-managed | Unknown | Never tested |
-| Local files (workstations) | Ad hoc copy to Synology NAS | Inconsistent — manual process | Never tested |
+| Local files (workstations) | Ad hoc copy to Synology NAS | Inconsistent - manual process | Never tested |
 | Network device configurations | Not backed up | N/A | N/A |
 
 ### 6.2 Recovery Gaps
 
 - No documented recovery time objective (RTO) or recovery point objective (RPO) for any system
 - No formal backup verification or restoration testing has ever been performed
-- M365 native retention is not a substitute for backup — deleted items may be unrecoverable after retention period expires
+- M365 native retention is not a substitute for backup - deleted items may be unrecoverable after retention period expires
 - EHR backup and recovery capabilities have never been confirmed with the vendor
 - No offline or immutable backup copy exists to protect against ransomware encryption
 
@@ -201,15 +201,15 @@ Follow-up / Ongoing Care ──► CloudMed EHR (updated records, appointment sc
 
 The following unmanaged technology practices have been identified through staff interviews and observation:
 
-1. **WhatsApp for patient communication** — Staff use personal WhatsApp accounts to confirm appointments and occasionally share lab results with patients. No consent, logging, or retention controls.
+1. **WhatsApp for patient communication** - Staff use personal WhatsApp accounts to confirm appointments and occasionally share lab results with patients. No consent, logging, or retention controls.
 
-2. **Personal Google Drive** — At least 3 staff members store work documents in personal Google Drive accounts for convenience when working across locations.
+2. **Personal Google Drive** - At least 3 staff members store work documents in personal Google Drive accounts for convenience when working across locations.
 
-3. **USB drive file transfers** — Unencrypted USB drives are used to move files between locations where network connectivity is unreliable.
+3. **USB drive file transfers** - Unencrypted USB drives are used to move files between locations where network connectivity is unreliable.
 
-4. **Shared login credentials** — Insurance portal credentials are shared among billing staff at each location. The credentials are written on sticky notes near workstations.
+4. **Shared login credentials** - Insurance portal credentials are shared among billing staff at each location. The credentials are written on sticky notes near workstations.
 
-5. **Personal email for business use** — Some staff forward work emails to personal Gmail accounts for remote access, bypassing M365 security controls.
+5. **Personal email for business use** - Some staff forward work emails to personal Gmail accounts for remote access, bypassing M365 security controls.
 
 ---
 
