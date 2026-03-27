@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Company Overview
+# MedCaribe Health Group - Company Overview
 
-**Document Classification:** Internal — Security Program  
+**Document Classification:** Internal - Security Program  
 **Version:** 1.0  
 **Date:** March 2026  
 **Author:** Jelani D. Maitland  
@@ -71,11 +71,11 @@ The group serves approximately 12,000 active patients annually across its locati
 
 | Data Category | Approximate Volume | Sensitivity |
 |---------------|-------------------|-------------|
-| Active patient records | 12,000 per year | High — personal and medical data |
-| Insurance claims processed | 8,500 per year | High — personal, financial, and medical data |
-| Corporate health assessments | 3,200 per year | High — employer-linked medical data |
-| Employee HR records | 55 records | Medium — personal and employment data |
-| Financial transactions | ~15,000 per year | Medium — billing and payment data |
+| Active patient records | 12,000 per year | High - personal and medical data |
+| Insurance claims processed | 8,500 per year | High - personal, financial, and medical data |
+| Corporate health assessments | 3,200 per year | High - employer-linked medical data |
+| Employee HR records | 55 records | Medium - personal and employment data |
+| Financial transactions | ~15,000 per year | Medium - billing and payment data |
 
 ### 2.3 Key Business Relationships
 
@@ -90,7 +90,7 @@ The group serves approximately 12,000 active patients annually across its locati
 ### 2.4 Regulatory Environment
 
 **Primary Legislation:**
-- **Trinidad and Tobago Data Protection Act (2011)** — Chapter 22:04: Governs collection, use, storage, and cross-border transfer of personal data. Enforced by the Office of the Information Commissioner. Penalties include fines up to TTD 50,000 and imprisonment up to 3 years.
+- **Trinidad and Tobago Data Protection Act (2011)** - Chapter 22:04: Governs collection, use, storage, and cross-border transfer of personal data. Enforced by the Office of the Information Commissioner. Penalties include fines up to TTD 50,000 and imprisonment up to 3 years.
 
 **Applicable Standards and Guidelines:**
 - Medical Board of Trinidad and Tobago requirements for patient record retention and confidentiality
@@ -124,20 +124,20 @@ The following are excluded from this program:
 
 ### 3.3 Program Objectives
 
-1. **Establish governance accountability** — Define who is responsible for security decisions, oversight, and compliance within MedCaribe
-2. **Identify and prioritize risks** — Document the most significant threats to the organization and score them by likelihood and impact
-3. **Implement essential controls** — Deploy baseline protections aligned with NIST CSF 2.0 and CIS Controls v8 IG1 appropriate for the organization's size and resources
-4. **Prepare for incidents** — Ensure the organization can detect, respond to, and recover from security events without panic or confusion
-5. **Meet regulatory obligations** — Satisfy the requirements of the Data Protection Act and contractual obligations from insurers and corporate clients
-6. **Create a foundation for maturity** — Establish a documented baseline that allows MedCaribe to measure and improve its security posture over time
+1. **Establish governance accountability** - Define who is responsible for security decisions, oversight, and compliance within MedCaribe
+2. **Identify and prioritize risks** - Document the most significant threats to the organization and score them by likelihood and impact
+3. **Implement essential controls** - Deploy baseline protections aligned with NIST CSF 2.0 and CIS Controls v8 IG1 appropriate for the organization's size and resources
+4. **Prepare for incidents** - Ensure the organization can detect, respond to, and recover from security events without panic or confusion
+5. **Meet regulatory obligations** - Satisfy the requirements of the Data Protection Act and contractual obligations from insurers and corporate clients
+6. **Create a foundation for maturity** - Establish a documented baseline that allows MedCaribe to measure and improve its security posture over time
 
 ### 3.4 Assumptions and Constraints
 
 | Category | Assumption / Constraint |
 |----------|------------------------|
-| Budget | Limited — no dedicated cybersecurity budget line; security spending is embedded in IT operations |
+| Budget | Limited - no dedicated cybersecurity budget line; security spending is embedded in IT operations |
 | Staffing | One part-time IT administrator; no dedicated security personnel |
-| Technical maturity | Basic — staff have limited cybersecurity awareness; IT admin handles reactive support |
+| Technical maturity | Basic - staff have limited cybersecurity awareness; IT admin handles reactive support |
 | Infrastructure | Primarily cloud-based (M365, cloud EHR); minimal on-premise server infrastructure |
 | Executive support | Medical Director has verbally endorsed the security program but has not yet allocated dedicated resources |
 | Timeline | Program is designed for phased implementation over 6–12 months |
