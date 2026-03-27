@@ -1,9 +1,9 @@
-# MedCaribe Health Group — Security Program
+# MedCaribe Health Group - Security Program
 
 ## A Complete Cybersecurity Governance Program for a Caribbean Healthcare Provider
 
 **Framework:** NIST Cybersecurity Framework (CSF) 2.0 + CIS Controls v8 (Implementation Group 1)  
-**Industry:** Private Healthcare — Trinidad and Tobago  
+**Industry:** Private Healthcare - Trinidad and Tobago  
 **Author:** Jelani D. Maitland  
 **Date:** March 2026
 
@@ -13,7 +13,7 @@
 
 This repository contains a complete, functional cybersecurity governance program built for **MedCaribe Health Group**, a fictional 55-person private healthcare provider operating in Trinidad and Tobago.
 
-The program was designed from the ground up to demonstrate how a small-to-midsize healthcare organization in the Caribbean can establish a practical, standards-aligned security posture — even without a dedicated security team.
+The program was designed from the ground up to demonstrate how a small-to-midsize healthcare organization in the Caribbean can establish a practical, standards-aligned security posture - even without a dedicated security team.
 
 Every document in this repository is written to be **usable**, not theoretical. A real organization of this size and profile could adopt this program with minimal modification.
 
@@ -23,7 +23,7 @@ Every document in this repository is written to be **usable**, not theoretical. 
 
 Healthcare is consistently the most targeted industry globally. Patient data commands premium prices on the dark web, ransomware operators exploit the urgency of clinical operations, and most small healthcare providers lack even basic security controls.
 
-In Trinidad and Tobago, the **Data Protection Act (2011)** establishes legal obligations for organizations handling personal information — including healthcare providers — yet most small practices operate without a documented security program. This project addresses that gap directly.
+In Trinidad and Tobago, the **Data Protection Act (2011)** establishes legal obligations for organizations handling personal information - including healthcare providers - yet most small practices operate without a documented security program. This project addresses that gap directly.
 
 ---
 
@@ -69,16 +69,16 @@ medcaribe-security-program/
 ## Frameworks Used
 
 ### NIST Cybersecurity Framework (CSF) 2.0
-The six core functions — **Govern, Identify, Protect, Detect, Respond, Recover** — provide the strategic structure for the program. Each risk and control maps to specific CSF categories and subcategories.
+The six core functions - **Govern, Identify, Protect, Detect, Respond, Recover** - provide the strategic structure for the program. Each risk and control maps to specific CSF categories and subcategories.
 
-### CIS Controls v8 — Implementation Group 1
+### CIS Controls v8 - Implementation Group 1
 IG1 represents essential cyber hygiene and is designed for organizations with limited resources and expertise. Every technical control recommendation aligns to specific CIS safeguards appropriate for a small healthcare environment.
 
 ---
 
 ## Regulatory Context
 
-**Trinidad and Tobago Data Protection Act (2011)** — Chapter 22:04
+**Trinidad and Tobago Data Protection Act (2011)** - Chapter 22:04
 
 Key obligations relevant to this program:
 - Organizations are responsible for personal information under their control
