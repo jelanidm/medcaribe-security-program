@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Data Classification Policy
+# MedCaribe Health Group - Data Classification Policy
 
-**Document Classification:** Internal — All Staff  
+**Document Classification:** Internal - All Staff  
 **Policy ID:** POL-004  
 **Version:** 1.0  
 **Effective Date:** March 2026  
@@ -18,7 +18,7 @@ This policy establishes a data classification scheme for MedCaribe Health Group 
 
 ## 2. Scope
 
-This policy covers all data created, collected, processed, stored, transmitted, or disposed of by MedCaribe — in any format (digital or physical) and on any system or medium (cloud platforms, workstations, mobile devices, paper, removable media).
+This policy covers all data created, collected, processed, stored, transmitted, or disposed of by MedCaribe - in any format (digital or physical) and on any system or medium (cloud platforms, workstations, mobile devices, paper, removable media).
 
 All employees, contractors, and third parties handling MedCaribe data must comply with this policy.
 
@@ -56,7 +56,7 @@ All employees, contractors, and third parties handling MedCaribe data must compl
 
 **Examples:** Patient medical records, diagnoses, prescriptions, lab results, patient insurance information, patient contact details and demographics, employee medical information, system administrator credentials, security incident details, passwords and access keys.
 
-**Handling Requirements:** Store only in approved, access-controlled systems (CloudMed EHR for clinical data, M365 with restricted access for other data). Access restricted to staff with a documented need based on role (see Access Control Policy). Encrypt at rest and in transit — no exceptions. Never store on personal devices, personal email, personal cloud, USB drives, or paper left unattended. Never transmit via WhatsApp, personal email, or any unapproved channel. Physical documents containing RESTRICTED data must be stored in locked cabinets and shredded when no longer required. Access must be logged where technically possible.
+**Handling Requirements:** Store only in approved, access-controlled systems (CloudMed EHR for clinical data, M365 with restricted access for other data). Access restricted to staff with a documented need based on role (see Access Control Policy). Encrypt at rest and in transit - no exceptions. Never store on personal devices, personal email, personal cloud, USB drives, or paper left unattended. Never transmit via WhatsApp, personal email, or any unapproved channel. Physical documents containing RESTRICTED data must be stored in locked cabinets and shredded when no longer required. Access must be logged where technically possible.
 
 ---
 
@@ -80,7 +80,7 @@ All employees, contractors, and third parties handling MedCaribe data must compl
 |-------------|--------|----------|--------------|------------|
 | Access restriction | None | MedCaribe staff | Authorized staff only | Role-based, documented need |
 | Encryption at rest | Not required | Not required | Required on endpoints | Required everywhere |
-| Encryption in transit | Not required | Required for external | Required | Required — no exceptions |
+| Encryption in transit | Not required | Required for external | Required | Required - no exceptions |
 | Personal device storage | Permitted | Not recommended | Prohibited | Prohibited |
 | Personal email/WhatsApp | Permitted | Prohibited | Prohibited | Prohibited |
 | USB drive transfer | Permitted | Approved encrypted only | Prohibited unless approved | Prohibited |
