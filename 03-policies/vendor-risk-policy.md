@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Vendor and Third-Party Risk Management Policy
+# MedCaribe Health Group - Vendor and Third-Party Risk Management Policy
 
-**Document Classification:** Internal — Management and IT  
+**Document Classification:** Internal - Management and IT  
 **Policy ID:** POL-005  
 **Version:** 1.0  
 **Effective Date:** March 2026  
@@ -30,7 +30,7 @@ This includes but is not limited to: CloudMed EHR provider, Microsoft (M365), In
 
 All vendors must be classified into a risk tier based on their level of access to MedCaribe data and the criticality of their service.
 
-### Tier 1 — Critical (High Risk)
+### Tier 1 - Critical (High Risk)
 
 **Criteria:** Vendor stores or processes RESTRICTED data (patient records, credentials) OR provides a service whose failure would halt MedCaribe operations.
 
@@ -38,7 +38,7 @@ All vendors must be classified into a risk tier based on their level of access t
 
 **Assessment Requirements:** Full vendor security questionnaire before onboarding. Annual reassessment. Review of SOC 2 or equivalent audit report. Data processing agreement required. Backup and recovery SLA documented and verified. Cross-border data transfer assessment required per DPA. Right-to-audit clause in contract.
 
-### Tier 2 — Important (Medium Risk)
+### Tier 2 - Important (Medium Risk)
 
 **Criteria:** Vendor accesses CONFIDENTIAL data OR provides a service that supports but does not directly enable core clinical operations.
 
@@ -46,7 +46,7 @@ All vendors must be classified into a risk tier based on their level of access t
 
 **Assessment Requirements:** Abbreviated vendor security questionnaire before onboarding. Biennial reassessment. Data processing agreement required where personal data is shared. Cross-border transfer assessment if data leaves Trinidad and Tobago.
 
-### Tier 3 — Standard (Low Risk)
+### Tier 3 - Standard (Low Risk)
 
 **Criteria:** Vendor has no access to sensitive data and provides non-critical services.
 
