@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Security Maturity Gap Analysis
+# MedCaribe Health Group - Security Maturity Gap Analysis
 
-**Document Classification:** Internal — Security Program  
+**Document Classification:** Internal - Security Program  
 **Version:** 1.0  
 **Date:** March 2026  
 **Author:** Jelani D. Maitland  
@@ -28,7 +28,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ## 3. Current State Assessment
 
-### 3.1 GOVERN — Maturity Level: 1 (Initial)
+### 3.1 GOVERN - Maturity Level: 1 (Initial)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -42,7 +42,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ---
 
-### 3.2 IDENTIFY — Maturity Level: 1.5 (Between Initial and Developing)
+### 3.2 IDENTIFY - Maturity Level: 1.5 (Between Initial and Developing)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -54,7 +54,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ---
 
-### 3.3 PROTECT — Maturity Level: 1.5 (Between Initial and Developing)
+### 3.3 PROTECT - Maturity Level: 1.5 (Between Initial and Developing)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -68,7 +68,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ---
 
-### 3.4 DETECT — Maturity Level: 1 (Initial)
+### 3.4 DETECT - Maturity Level: 1 (Initial)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -79,7 +79,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ---
 
-### 3.5 RESPOND — Maturity Level: 1 (Initial)
+### 3.5 RESPOND - Maturity Level: 1 (Initial)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -93,7 +93,7 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 ---
 
-### 3.6 RECOVER — Maturity Level: 1 (Initial)
+### 3.6 RECOVER - Maturity Level: 1 (Initial)
 
 | Area | Finding | Gap |
 |------|---------|-----|
@@ -122,15 +122,15 @@ This document assesses MedCaribe Health Group's current cybersecurity maturity a
 
 Based on the assessment, the following gaps represent the highest combined risk and fastest path to maturity improvement:
 
-1. **MFA enforcement across all accounts** — Closes the most critical vulnerability (BEC, credential theft) with minimal cost using existing M365 licensing.
+1. **MFA enforcement across all accounts** - Closes the most critical vulnerability (BEC, credential theft) with minimal cost using existing M365 licensing.
 
-2. **Incident response plan creation and testing** — Moves Respond function from Level 1 to Level 3 with a single documented deliverable and tabletop exercise.
+2. **Incident response plan creation and testing** - Moves Respond function from Level 1 to Level 3 with a single documented deliverable and tabletop exercise.
 
-3. **Security policy suite** — Establishes governance foundation that enables all other improvements.
+3. **Security policy suite** - Establishes governance foundation that enables all other improvements.
 
-4. **Backup verification and immutable backup** — Addresses the highest-impact risk (ransomware) by confirming recovery capability.
+4. **Backup verification and immutable backup** - Addresses the highest-impact risk (ransomware) by confirming recovery capability.
 
-5. **Security awareness training** — Reduces the most common attack vector (phishing/social engineering) across the entire organization.
+5. **Security awareness training** - Reduces the most common attack vector (phishing/social engineering) across the entire organization.
 
 ---
 
