@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Acceptable Use Policy
+# MedCaribe Health Group - Acceptable Use Policy
 
-**Document Classification:** Internal — All Staff  
+**Document Classification:** Internal - All Staff  
 **Policy ID:** POL-001  
 **Version:** 1.0  
 **Effective Date:** March 2026  
@@ -18,7 +18,7 @@ This policy defines acceptable and prohibited uses of MedCaribe Health Group tec
 
 ## 2. Scope
 
-This policy applies to all MedCaribe employees, contractors, temporary staff, and any third party granted access to MedCaribe systems, networks, or data — regardless of location, device ownership, or employment status.
+This policy applies to all MedCaribe employees, contractors, temporary staff, and any third party granted access to MedCaribe systems, networks, or data - regardless of location, device ownership, or employment status.
 
 Systems covered include but are not limited to: Microsoft 365 (email, Teams, OneDrive, SharePoint), CloudMed EHR, QuickBooks Online, insurance portals, workstations, laptops, tablets, printers, network infrastructure, and internet access provided by MedCaribe.
 
