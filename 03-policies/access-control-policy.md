@@ -1,6 +1,6 @@
-# MedCaribe Health Group — Access Control Policy
+# MedCaribe Health Group - Access Control Policy
 
-**Document Classification:** Internal — Management and IT  
+**Document Classification:** Internal - Management and IT  
 **Policy ID:** POL-002  
 **Version:** 1.0  
 **Effective Date:** March 2026  
@@ -38,9 +38,9 @@ Changes to user access (role changes, transfers, additional system access) must 
 
 ### 3.3 Account Deprovisioning (Offboarding)
 
-When a staff member departs MedCaribe — whether through resignation, termination, or contract end — the following must occur within 24 hours of their last working day:
+When a staff member departs MedCaribe - whether through resignation, termination, or contract end - the following must occur within 24 hours of their last working day:
 
-- Microsoft 365 account disabled (not deleted — retain for 90 days for potential data recovery and legal holds)
+- Microsoft 365 account disabled (not deleted - retain for 90 days for potential data recovery and legal holds)
 - CloudMed EHR account disabled
 - QuickBooks access revoked
 - Insurance portal passwords changed if the departing user had access
@@ -54,7 +54,7 @@ The Operations Manager is responsible for notifying the IT Administrator of all 
 
 Shared accounts (such as reception@medcaribe.tt or lab@medcaribe.tt) are prohibited for any system that accesses patient data, financial data, or sensitive information.
 
-Existing shared accounts must be migrated to individual accounts within 90 days of this policy's effective date. Where a shared mailbox is operationally necessary (such as a general enquiry address), it must be configured as a Microsoft 365 Shared Mailbox with individual user access — not a shared login.
+Existing shared accounts must be migrated to individual accounts within 90 days of this policy's effective date. Where a shared mailbox is operationally necessary (such as a general enquiry address), it must be configured as a Microsoft 365 Shared Mailbox with individual user access - not a shared login.
 
 ### 3.5 Account Reviews
 
@@ -117,7 +117,7 @@ Admin accounts must not be used for email, web browsing, or any activity other t
 
 ### 6.2 Admin Account Limits
 
-The number of Global Administrator accounts in Microsoft 365 must not exceed two. Additional administrative roles (such as Exchange Administrator, User Administrator) should be assigned using least-privilege role assignments. The Medical Director and Operations Manager must not hold Global Admin rights — they will be assigned specific limited roles appropriate to their oversight needs.
+The number of Global Administrator accounts in Microsoft 365 must not exceed two. Additional administrative roles (such as Exchange Administrator, User Administrator) should be assigned using least-privilege role assignments. The Medical Director and Operations Manager must not hold Global Admin rights - they will be assigned specific limited roles appropriate to their oversight needs.
 
 ### 6.3 Emergency Access (Break-Glass) Accounts
 
